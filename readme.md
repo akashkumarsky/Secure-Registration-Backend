@@ -142,5 +142,10 @@ The application uses role-based access control (RBAC) for authorization. By defa
 7. Email Configuration
 7.1 SMTP Setup
 The project uses a local SMTP server running on port 1025 for sending registration confirmation emails. Modify the application.yml file for production SMTP services (e.g., Gmail, SendGrid).
-
+Name-maildev
+using Node.js
+commend - 1 npm install -g maildev
+2 maildev
+3 copy MailDev webapp running at http://localhost:1080/ (web Address)
+MailDev SMTP Server running at localhost:1025 (mail port)
   
