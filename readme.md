@@ -1,6 +1,14 @@
-Project Documentation: Registration and Login System
-1. Overview
-This project is a Spring Boot application for handling user registration, login, and email verification. It includes user authentication, role-based access control, email verification, and database interactions using JPA.
+ Secure Registration Backend
+1. Description
+This application is a Spring Boot-based project that enables user registration and login functionality with email validation. The primary purpose of the application is to provide users with the ability to register, log in, and authenticate with email verification. The application is built with Spring Boot, Spring Security, Spring Data JPA, and PostgreSQL, and it also uses email functionality for account confirmation.
+
+1.1 Technologies Used
+Backend: Spring Boot 3.4.1
+Database: PostgreSQL (JPA)
+Email Service: Spring Boot Email Integration
+Security: Spring Security (for user authentication)
+Logging: Spring Boot’s built-in logging mechanism
+Other Libraries: Lombok (for reducing boilerplate code)
 
 2. Project Setup
 2.1 Prerequisites
